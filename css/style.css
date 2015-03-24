@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+.voteButton{
+	line-height: 14px;
+	min-height: 14px;
+}
+.button.voteButton:before{
+	line-height: 14px;
+}
+.voteContainer{
+	float: right;
+	text-align: center;
+}
