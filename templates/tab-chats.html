@@ -5,7 +5,7 @@
         <label class="item-input-wrapper">
           <input type="text" placeholder="Say Something" ng-model="message">
         </label>
-        <button class="button button-small" ng-click="add(message)">
+        <button class="button button-small" ng-click="add(message); message = null;">
           Submit
         </button>
       </div>
